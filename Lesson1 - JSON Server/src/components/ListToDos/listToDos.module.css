@@ -1,0 +1,26 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 20px 0;
+    border-bottom: 1px solid #6c63ff;
+}
+
+.listItemBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonIcon {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-left: 5px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonIcon:hover {
+    opacity: 0.75;
+}
